@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>页面未找到 — Decrypt_Html</title>
+  <meta name="description" content="页面未找到，重定向到应用首页。">
+</head>
+<body>
+  <h1>404 - 页面未找到</h1>
+  <p>正在重定向到应用首页，若未自动跳转请点击下面的链接。</p>
+  <p><a href="https://cliayn.github.io/Decrypt_Html/">回到工具首页</a></p>
+  <script>
+    try{
+      sessionStorage.setItem('spa_redirect', location.pathname + location.search);
+    }catch(e){}
+    // 跳回到站点根（GitHub Pages 仓库页）
+    location.href = 'https://cliayn.github.io/Decrypt_Html/';
+  </script>
+</body>
+</html>

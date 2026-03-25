@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cliayn.github.io/Decrypt_Html/sitemap.xml
